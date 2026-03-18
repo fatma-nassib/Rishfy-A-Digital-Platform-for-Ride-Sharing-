@@ -1,0 +1,50 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rishfy_v1</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html> -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Rishfy - Safe Ride Sharing in Dar es Salaam</title>
+    <meta name="description" content="Rishfy connects vehicle owners with daily commuters along shared routes for safe, affordable ride-sharing in Dar es Salaam." />
+    <meta name="author" content="Rishfy" />
+
+    <meta property="og:title" content="Rishfy - Safe Ride Sharing" />
+    <meta property="og:description" content="Safe, affordable ride-sharing for Dar es Salaam commuters" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- Vite React SWC / React Refresh preamble -->
+    <script type="module" src="/@vite/client"></script>
+    <script type="module">
+      import RefreshRuntime from "/@react-refresh";
+      RefreshRuntime.injectIntoGlobalHook(window);
+      window.$RefreshReg$ = () => {};
+      window.$RefreshSig$ = () => (type) => type;
+      window.__vite_plugin_react_preamble_installed__ = true;
+    </script>
+
+    <!-- App entrypoint -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
